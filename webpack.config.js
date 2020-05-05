@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-  entry: './src/develop.js',
+  entry: './src/index.js',
   output: {
-    filename: 'signals.bundle.js',
+    filename: 'core.bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
