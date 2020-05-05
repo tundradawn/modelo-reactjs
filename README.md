@@ -6,7 +6,17 @@ Spanish for Template, contains reactjs configurations used by @tundradawn.
 # Contents
 
 ##### `./src/`
-- Basic reactjs project structure
+Basic reactjs project structure
+
+- **`./src/components`**
+ - All components set here 
+- **`./src/containers`**
+ - Containers are combinations of components.
+- **`./src/services`**
+ - Any classes acting as service modules reside here.
+- **`./src/styles`**
+ - Base styles, known as global styles set here.
+
 
 ##### `webpack.config.js`
 - Entry from `./src/index.js` and outputs `bundle.js`
