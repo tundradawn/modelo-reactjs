@@ -1,0 +1,41 @@
+{
+  "name": "Modelo",
+  "version": "1.0.0",
+  "description": "React Template for @tundradawn",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack",
+    "browser-sync": "browser-sync start --server 'dist' --files 'dist'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tundradawn/<repo>.git"
+  },
+  "author": "tundra dawn <hello@tundradawn.co>",
+  "homepage": "https://github.com/tundradawn/<repo>#readme",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/tundradawn/<repo>/issues"
+  },
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "styled-components": "5.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.0",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/preset-env": "7.9.5",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "css-loader": "3.5.2",
+    "copy-webpack-plugin": "5.1.1",
+    "html-webpack-plugin": "4.2.0",
+    "style-loader": "1.1.4",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
