@@ -1,4 +1,4 @@
-# Modelo Webpack 🧮🤖
+# Modelo Reactjs 🛠👩‍💻
 
 Spanish for Template, contains reactjs configurations used by @tundradawn. 
 
