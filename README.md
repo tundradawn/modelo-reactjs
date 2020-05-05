@@ -1,9 +1,21 @@
-# Modelo 🧮🤖
+# Modelo Webpack 🧮🤖
 
-Spanish for Template, Modelo is a general purpose repo template for @tundradawn. I wanted to call it Nodelo, for node purposes... but if we need a template repo specfically for node i think we'll cross that road at that time.
+Spanish for Template, contains reactjs configurations used by @tundradawn. 
 
 
 # Contents
+
+##### `./src/`
+- Basic reactjs project structure
+
+##### `webpack.config.js`
+- Entry from `./src/index.js` and outputs `bundle.js`
+
+##### `.babelrc`
+- Sets babel preset to reactjs as default
+
+##### `package.json`
+- Basic reactjs required dependencies.
 
 ##### `.gitignore`
 - ignores node elements, common UNIX elements such as `.DS_Store` and more.
