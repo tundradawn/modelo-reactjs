@@ -9,13 +9,13 @@ Spanish for Template, contains reactjs configurations used by @tundradawn.
 Basic reactjs project structure
 
 - **`./src/components`**
- - All components set here 
+  - All components set here 
 - **`./src/containers`**
- - Containers are combinations of components.
+  - Containers are combinations of components.
 - **`./src/services`**
- - Any classes acting as service modules reside here.
+  - Any classes acting as service modules reside here.
 - **`./src/styles`**
- - Base styles, known as global styles set here.
+  - Base styles, known as global styles set here.
 
 
 ##### `webpack.config.js`
