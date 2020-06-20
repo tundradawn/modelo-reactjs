@@ -2,6 +2,20 @@
 
 Spanish for Template, contains reactjs configurations used by @tundradawn. 
 
+## Uses:
+
+Everyone needs training wheels to get you off on a good foot,
+we use [rebassjs](https://rebassjs.org) to quickly get designs out. Used with [theme-ui](https://theme-ui.com)
+for greater customization. 
+
+[awesome-styled-grid](https://awesome-styled-grid.netlify.app/) has all the functionality [flexboxgrid](flexboxgrid.com/)
+does and some, a perfect replacement for reactjs. 
+
+Until you've got the hang of these libraries, keep the docs close.
+- [rebassjs](https://rebassjs.org)
+- [styled-system](https://styled-system.com/)
+- [theme-ui](https://theme-ui.com)
+- [awesome-styled-grid](https://awesome-styled-grid.netlify.app/)
 
 # Contents
 
