@@ -15,9 +15,13 @@ const GlobalStyle = createGlobalStyle`
     width:100%;
     // hard reset for rems to position from.
     font-size:16px;
+    font-family:${
+      props => props.theme.fonts ?
+        props.theme.fonts.body : 'Work Sans'
+      };
   }
   body {
-    background:${colors.whitegray};
+    background: ${colors.white};
     height:100%;
   }
 `;
