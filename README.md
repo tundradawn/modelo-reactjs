@@ -1,6 +1,6 @@
-# Modelo Reactjs 🛠👩‍💻
+# react-template 🛠👩‍💻
 
-Spanish for Template, contains reactjs configurations used by @tundradawn. 
+Highly customized react configurations used by @tundradawn. 
 
 ## Uses:
 
@@ -9,7 +9,7 @@ we use [rebassjs](https://rebassjs.org) to quickly get designs out. Used with [t
 for greater customization. 
 
 [awesome-styled-grid](https://awesome-styled-grid.netlify.app/) has all the functionality [flexboxgrid](flexboxgrid.com/)
-does and some, a perfect replacement for reactjs. 
+does and some.
 
 Until you've got the hang of these libraries, keep the docs close.
 - [rebassjs](https://rebassjs.org)
@@ -43,7 +43,7 @@ Basic reactjs project structure
 
 ##### `.gitignore`
 - ignores node elements, common UNIX elements such as `.DS_Store` and more.
-
+  
 ##### `.editorconfig`
 - ensure spacing and other fine factors of the coding life are consistant acrosses not only IDE's but also OS enviroments.
 
@@ -54,9 +54,9 @@ Basic reactjs project structure
 ##### `.gitattributes`
 - Forces all binary and text files to follow consistant line ending rules, as some team members work with Windows and others Mac.
 
-# Base Licence `AGPL-3.0-or-later`
+# License `MIT`
 Why did i choose this licence? For this specific line right here:
-> When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
+> It's short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions. 
 
 _Found on [choosealicence.com](https://choosealicense.com/licenses/);_
 
