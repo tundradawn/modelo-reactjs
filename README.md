@@ -1,7 +1,17 @@
-# react-template 🛠👩‍💻
+# react-starter 🛠👩‍💻
 
 Highly customized react configurations used by @tundradawn. 
 
+## Usage:
+This is a repo template! Which means you can either utilize the template features or clone yourself.
+### [Use this template](https://github.com/tundradawn/react-starter/generate)
+Generates a new repo right on github.
+
+### Manually clone
+Otherwise you can clone and move your upstream to a new repo.
+``` BASH
+git clone https://github.com/tundradawn/react-starter.git
+```
 ## Uses:
 
 Everyone needs training wheels to get you off on a good foot,
