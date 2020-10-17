@@ -1,18 +1,17 @@
-# react-starter 🛠👩‍💻
+# react-starter 🛠👩‍💻 [Use this template](https://github.com/DanielTamkin/react-starter/generate)
 
-Highly customized react configurations used by @tundradawn. 
+Highly customized react configurations used by members of [@tundradawn](https://github.com/tundradawn/).
 
 ## Usage:
-This is a repo template! Which means you can either utilize the template features or clone yourself.
-### [Use this template](https://github.com/tundradawn/react-starter/generate)
-Generates a new repo right on github.
+This is a repository template! Click or clone to get started.
+[(What is a Repository Template?)](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/)
 
 ### Manually clone
 Otherwise you can clone and move your upstream to a new repo.
 ``` BASH
 git clone https://github.com/tundradawn/react-starter.git
 ```
-## Uses:
+## Getting Started:
 
 Everyone needs training wheels to get you off on a good foot,
 we use [rebassjs](https://rebassjs.org) to quickly get designs out. Used with [theme-ui](https://theme-ui.com)
@@ -39,7 +38,7 @@ Basic reactjs project structure
 - **`./src/services`**
   - Any classes acting as service modules reside here.
 - **`./src/styles`**
-  - Base styles, known as global styles set here.
+  - Base styles such as globals, colors, typography, and themes.
 
 
 ##### `webpack.config.js`
@@ -49,25 +48,23 @@ Basic reactjs project structure
 - Sets babel preset to reactjs as default
 
 ##### `package.json`
-- Basic reactjs required dependencies.
+- All the Basic reactjs required dependencies, plus the above listed plugins.
 
 ##### `.gitignore`
 - ignores node elements, common UNIX elements such as `.DS_Store` and more.
   
 ##### `.editorconfig`
-- ensure spacing and other fine factors of the coding life are consistant acrosses not only IDE's but also OS enviroments.
+- ensure spacing and other editor specific characters are consistant acrosses development environments.
 
 ##### `.eslintrc.js`
 - Contains common eslint rules with a small selection of simple ignores to aid in fast building of repos.
-- Uses the Airbnb ruleset thanks to the suggestion from @jadnco
+- Uses the Airbnb ruleset thanks to the suggestion from [@jadnco](https://github.com/jadnco).
 
 ##### `.gitattributes`
 - Forces all binary and text files to follow consistant line ending rules, as some team members work with Windows and others Mac.
 
 # License `MIT`
-Why did i choose this licence? For this specific line right here:
 > It's short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions. 
 
-_Found on [choosealicence.com](https://choosealicense.com/licenses/);_
+_Learn more at [choosealicence.com](https://choosealicense.com/licenses/mit/);_
 
-This seems to be a good all around licence to ensure all parties are getting the same access to Opensource Software software..
